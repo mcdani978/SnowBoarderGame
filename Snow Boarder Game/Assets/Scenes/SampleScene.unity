@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 386941238}
   - component: {fileID: 386941239}
   m_Layer: 0
-  m_Name: Barry
+  m_Name: Spr_Barry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 533271723}
   - component: {fileID: 533271724}
   m_Layer: 0
-  m_Name: Boarder_Bottom
+  m_Name: Spr_Boarder_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 982647236}
   - component: {fileID: 982647237}
   m_Layer: 0
-  m_Name: Boarder_Top
+  m_Name: Spr_Boarder_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
