@@ -4,13 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CrashDetector : MonoBehaviour
-{
-    void OnTriggerEnter2D(Collider2D other)
+{ 
+    [SerializeField] float Flt_loadDelay = 0.5f;
+
+void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Ground")
         {
-            SceneManager.LoadScene(0);
+            Invoke("ReloadScene", Flt_loadDelay);
         }
+    }
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }
 
