@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [SerializeField] float Flt_torqueAmount = 1f;
     [SerializeField] float Flt_boostSpeed = 30f;
@@ -10,20 +10,29 @@ public class NewBehaviourScript : MonoBehaviour
 
     Rigidbody2D rb2d;
     SurfaceEffector2D surfaceEffector2D;
+    bool bol_canMove = true;
 
     // Start is called before the first frame update
     void Start()
     {
       rb2d = GetComponent<Rigidbody2D>();
-        surfaceEffector2D = FindObjectOfType<SurfaceEffector2D>();
+      surfaceEffector2D = FindObjectOfType<SurfaceEffector2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        RotatePlayer();
-        RespondToBoost();
+        if (bol_canMove)
+        {
+            RotatePlayer();
+            RespondToBoost();
+        }
     }
+
+    public void DisableControls()
+    {
+        bol_canMove = false;
+    } 
 
     void RespondToBoost()
     {

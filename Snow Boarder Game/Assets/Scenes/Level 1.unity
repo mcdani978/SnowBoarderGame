@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d17b289edaad644288c943553cde8a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Flt_loadDelay: 0.5
+  Flt_loadDelay: 1
   crashEffect: {fileID: 590106870}
   crashSFX: {fileID: 8300000, guid: 918a1bd8d89b7c34da122c4b0e94c2ef, type: 3}
 --- !u!114 &386941242
@@ -1474,7 +1474,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6774096, y: 0.61, z: -10}
+  m_LocalPosition: {x: 1.7321506, y: 0.61, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7775,7 +7775,7 @@ Transform:
   m_GameObject: {fileID: 1379999693}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6774096, y: 0.61, z: -10}
+  m_LocalPosition: {x: 1.7321506, y: 0.61, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
